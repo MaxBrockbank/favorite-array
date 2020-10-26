@@ -11,10 +11,11 @@ $(document).ready(function () {
     // $(".favorite3").text(favorite3Input);
     // $(".favorite4").text(favorite4Input);
 
-
-
     let favoriteArray = [favorite1Input, favorite2Input, favorite3Input, favorite4Input];
+    console.log(favoriteArray);
 
+
+    let secondFirstThird = favoriteArray.slice(0, 3);
 
   });
 });
